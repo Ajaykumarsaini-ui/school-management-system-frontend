@@ -1,0 +1,82 @@
+@import "../_variables.scss";
+
+// .transport-card-container {
+//   }
+
+.transport-card {
+  transition: transform 0.3s ease;
+  border: 1px solid $light-purple;
+
+  .teacher-btns {
+    padding-block: 10px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    .edit {
+      font-size: 16px;
+      background-color: $light-purple;
+      color: $black;
+      padding-block: 3px !important;
+
+      &:hover {
+        color: $white;
+        background-color: $dark-purple;
+      }
+    }
+    .delete {
+      font-size: 16px;
+      background-color: $light-purple;
+      color: $black;
+      padding-block: 3px !important;
+
+      &:hover {
+        color: $white;
+        background-color: $dark-purple;
+      }
+    }
+  }
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+h2 {
+  color: $dark-orange;
+  font-size: clamp(0.8rem, 2vw, 1.2rem);
+  font-weight: 600;
+  padding-block: 7px;
+}
+p {
+  font-size: clamp(0.7rem, 1.5vw, 0.9rem);
+  font-weight: 500;
+  color: $slate-gray;
+
+  strong {
+    color: $muted-red;
+    font-weight: 700;
+  }
+}
+.date {
+  color: $light-grey;
+  font-weight: 500;
+  font-size: (clamp(0.7rem, 1.5vw, 0.8rem));
+}
+
+//   a {
+//     color: $dark-purple;
+//     font-weight: 500;
+//     padding-top: 10px;
+//   }
+
+//   .status-badge {
+
+//     &.completed {
+//     }
+
+//     &.pending {
+//     }
+
+//     &.scheduled {
+//     }
+//   }

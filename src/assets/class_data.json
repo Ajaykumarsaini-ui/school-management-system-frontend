@@ -1,0 +1,213 @@
+[
+    {
+      "id": 1,
+      "class_name": "Nursery",
+      "class_teacher": "Anita Sharma",
+      "total_students": 25,
+      "class_room": "101"
+    },
+    {
+      "id": 2,
+      "class_name": "LKG",
+      "class_teacher": "Sunita Meena",
+      "total_students": 28,
+      "class_room": "102"
+    },
+    {
+      "id": 3,
+      "class_name": "UKG",
+      "class_teacher": "Manju Yadav",
+      "total_students": 30,
+      "class_room": "103"
+    },
+    {
+      "id": 4,
+      "class_name": "Class 1",
+      "class_teacher": "Nisha Gupta",
+      "total_students": 32,
+      "class_room": "104"
+    },
+    {
+      "id": 5,
+      "class_name": "Class 1",
+      "class_teacher": "Rajeev Kumar",
+      "total_students": 31,
+      "class_room": "105"
+    },
+    {
+      "id": 6,
+      "class_name": "Class 2",
+      "class_teacher": "Ritu Sharma",
+      "total_students": 29,
+      "class_room": "106"
+    },
+    {
+      "id": 7,
+      "class_name": "Class 2",
+      "class_teacher": "Amit Mishra",
+      "total_students": 30,
+      "class_room": "107"
+    },
+    {
+      "id": 8,
+      "class_name": "Class 3",
+      "class_teacher": "Preeti Kaur",
+      "total_students": 27,
+      "class_room": "108"
+    },
+    {
+      "id": 9,
+      "class_name": "Class 3",
+      "class_teacher": "Deepak Soni",
+      "total_students": 28,
+      "class_room": "109"
+    },
+    {
+      "id": 10,
+      "class_name": "Class 4",
+      "class_teacher": "Kavita Mehta",
+      "total_students": 26,
+      "class_room": "110"
+    },
+    {
+      "id": 11,
+      "class_name": "Class 4",
+      "class_teacher": "Ramesh Yadav",
+      "total_students": 29,
+      "class_room": "111"
+    },
+    {
+      "id": 12,
+      "class_name": "Class 5",
+      "class_teacher": "Anjali Jain",
+      "total_students": 30,
+      "class_room": "112"
+    },
+    {
+      "id": 13,
+      "class_name": "Class 5",
+      "class_teacher": "Harshita Verma",
+      "total_students": 30,
+      "class_room": "113"
+    },
+    {
+      "id": 14,
+      "class_name": "Class 6",
+      "class_teacher": "Mohit Chauhan",
+      "total_students": 32,
+      "class_room": "114"
+    },
+    {
+      "id": 15,
+      "class_name": "Class 6",
+      "class_teacher": "Priya Raj",
+      "total_students": 31,
+      "class_room": "115"
+    },
+    {
+      "id": 16,
+      "class_name": "Class 7",
+      "class_teacher": "Ravi Tiwari",
+      "total_students": 30,
+      "class_room": "116"
+    },
+    {
+      "id": 17,
+      "class_name": "Class 7",
+      "class_teacher": "Sangeeta Sharma",
+      "total_students": 28,
+      "class_room": "117"
+    },
+    {
+      "id": 18,
+      "class_name": "Class 8",
+      "class_teacher": "Yogesh Khanna",
+      "total_students": 33,
+      "class_room": "118"
+    },
+    {
+      "id": 19,
+      "class_name": "Class 8",
+      "class_teacher": "Sneha Kapoor",
+      "total_students": 30,
+      "class_room": "119"
+    },
+    {
+      "id": 20,
+      "class_name": "Class 9",
+      "class_teacher": "Neha Joshi",
+      "total_students": 35,
+      "class_room": "120"
+    },
+    {
+      "id": 21,
+      "class_name": "Class 9",
+      "class_teacher": "Vikram Dahiya",
+      "total_students": 34,
+      "class_room": "121"
+    },
+    {
+      "id": 22,
+      "class_name": "Class 10",
+      "class_teacher": "Ajay Singh",
+      "total_students": 36,
+      "class_room": "122"
+    },
+    {
+      "id": 23,
+      "class_name": "Class 10",
+      "class_teacher": "Sonal Jain",
+      "total_students": 35,
+      "class_room": "123"
+    },
+    {
+      "id": 24,
+      "class_name": "Class 11 Science",
+      "class_teacher": "Dr. Shalini Rao",
+      "total_students": 40,
+      "class_room": "201"
+    },
+    {
+      "id": 25,
+      "class_name": "Class 11 Commerce",
+      "class_teacher": "Mukesh Bhatt",
+      "total_students": 38,
+      "class_room": "202"
+    },
+    {
+      "id": 26,
+      "class_name": "Class 11 Arts",
+      "class_teacher": "Radhika Sen",
+      "total_students": 37,
+      "class_room": "203"
+    },
+    {
+      "id": 27,
+      "class_name": "Class 12 Science",
+      "class_teacher": "Dr. Kiran Kumar",
+      "total_students": 39,
+      "class_room": "204"
+    },
+    {
+      "id": 28,
+      "class_name": "Class 12 Commerce",
+      "class_teacher": "Siddharth Sinha",
+      "total_students": 40,
+      "class_room": "205"
+    },
+    {
+      "id": 29,
+      "class_name": "Class 12 Arts",
+      "class_teacher": "Geeta Bhardwaj",
+      "total_students": 36,
+      "class_room": "206"
+    },
+    {
+      "id": 30,
+      "class_name": "Special Education",
+      "class_teacher": "Meena Kumari",
+      "total_students": 12,
+      "class_room": "207"
+    }
+  ]
+  

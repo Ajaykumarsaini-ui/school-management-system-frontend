@@ -1,0 +1,12 @@
+@import'../../variables' ;
+
+.notices{
+    h1{
+        color: $dark-purple;
+        text-align: center;
+        font-size: clamp(1.5rem, 2.5vw, 1.9rem);
+        font-weight: 700;
+        padding-block: 7px;
+
+    }
+}

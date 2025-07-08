@@ -1,0 +1,86 @@
+@import "../../variables";
+
+.teachers-page {
+  background: $white;
+  min-height: 100vh;
+
+  .teacher-card {
+    transition: transform 0.3s ease;
+    background-color: rgb(252, 250, 250);
+    height: auto;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+  }
+
+  .teacher-img {
+    border: 1px dotted $light-blue;
+  }
+
+  .teacher-name {
+    color: $dark-orange;
+  }
+  .teacher-phone strong {
+    color: $muted-red;
+  }
+  .teacher-mail strong {
+    color: $muted-red;
+  }
+
+  .teacher-perform strong {
+    color: $muted-red;
+  }
+
+  .teacher-rating strong {
+    color: $muted-red;
+  }
+  .teacher-btns{
+    padding-block: 10px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    .edit{
+        font-size: 16px;
+        background-color: $light-purple;
+        color: $black;
+        padding-block: 3px !important;
+
+        &:hover{
+            color: $white;
+            background-color: $dark-purple;
+        }
+
+
+
+
+    }
+    .delete{
+        font-size: 16px;
+        background-color: $light-purple;
+        color: $black;
+        padding-block: 3px !important;
+
+        &:hover{
+            color: $white;
+            background-color: $dark-purple;
+        }
+
+
+
+
+
+    }
+  }
+
+  .teacher-btn {
+    background-color: $light-purple;
+    color: $black;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $dark-purple;
+      color: $white;
+    }
+  }
+}

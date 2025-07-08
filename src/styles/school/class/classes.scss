@@ -1,0 +1,13 @@
+@import "../../variables";
+
+.class-page {
+  h1 {
+    color: $dark-purple;
+  }
+
+  .class-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+  }
+}

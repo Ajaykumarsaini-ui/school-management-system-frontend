@@ -1,0 +1,40 @@
+// .notice-grid {
+//   }
+
+@import "../variables";
+
+.notice-card {
+  border: 1px solid $light-purple;
+  &:hover {
+    border-color: $dark-purple;
+  }
+
+  h2 {
+    color: $dark-orange;
+    font-size: clamp(0.8rem, 2vw, 1.2rem);
+    font-weight: 600;
+    padding-block: 7px;
+  }
+  p {
+    font-size: clamp(0.7rem, 1.5vw, 0.9rem);
+    font-weight: 500;
+    color: $slate-gray;
+  }
+  .date {
+    color: $light-grey;
+    font-weight: 500;
+    font-size: (clamp(0.7rem, 1.5vw, 0.8rem));
+  }
+
+  a {
+    color: $dark-purple;
+    font-weight: 500;
+    padding-top: 10px;
+  }
+}
+
+.category-badge {
+  background-color: $light-purple;
+  color: $black;
+  font-size: clamp(0.7rem, 1.5vw, 0.9rem);
+}

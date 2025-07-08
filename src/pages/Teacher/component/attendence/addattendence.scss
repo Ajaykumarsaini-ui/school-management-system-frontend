@@ -1,0 +1,19 @@
+@import"../../../../styles/variables";
+
+.attendence-assigned-class {
+  h2 {
+    color: #4f46e5;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  select {
+    border-radius: 6px;
+    padding: 10px 16px;
+    border: 1px solid #c7d2fe;
+    &:focus {
+      border-color: #6366f1;
+      box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.4);
+    }
+  }
+}

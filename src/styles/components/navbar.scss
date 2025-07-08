@@ -1,0 +1,117 @@
+@import "../variables" ;
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 8px;
+    background-color: #ffffff;
+    // box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  
+    .search-box {
+      display: flex;
+      align-items: center;
+      border: 1px solid #e5e7eb;
+      padding: 4px 12px;
+      border-radius: 5px;
+      background-color: #f9fafb;
+  
+      input {
+        border: none;
+        outline: none;
+        background: transparent;
+        margin-left: 8px;
+        font-weight: 500;
+        font-size: 14px;
+      }
+  
+      .search-icon {
+        color: $dark-purple; // purple accent
+        width: 18px;
+        height: 18px;
+      }
+    }
+  
+    .right-section {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      position: relative;
+  
+      .icon {
+        width: 20px;
+        height: 20px;
+        color: #6b7280;
+        cursor: pointer;
+      }
+  
+      .profile {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+  
+        .avatar {
+          width: 32px;
+          height: 32px;
+          border-radius: 9999px;
+        }
+  
+        .profile-info {
+          display: flex;
+          flex-direction: column;
+  
+          .name {
+            font-weight: 600;
+            font-size:clamp(0.6rem , 2vw , 0.8rem);
+          }
+  
+          .role {
+            font-size: 12px;
+            font-weight: 500;
+            color: #6b7280;
+          }
+        }
+      }
+  
+      .dropdown {
+        position: absolute;
+        cursor: pointer;
+        top: 47px;
+        right: 0;
+        font-weight: 500;
+        background-color: white;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+        border-radius: 8px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        font-size: 14px;
+        width: 120px;
+
+        .profile-links{
+          padding: 3px 10px;
+          border-radius: 5px;
+
+          &:hover{
+            background-color: $light-purple;
+          }
+
+          &.active{
+            background-color: $dark-purple;
+            color: $white;
+          }
+
+
+
+        }
+
+
+
+
+      }
+    }
+  }
+  

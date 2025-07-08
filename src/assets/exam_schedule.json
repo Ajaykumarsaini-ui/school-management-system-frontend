@@ -1,0 +1,153 @@
+[
+    {
+      "id": "1",
+      "class": "10",
+      "section": "A",
+      "subject": "Mathematics",
+      "exam_date": "2025-04-25",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "room_no": "101"
+    },
+    {
+      "id": "2",
+      "class": "10",
+      "section": "A",
+      "subject": "Science",
+      "exam_date": "2025-04-27",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "room_no": "102"
+    },
+    {
+      "id": "3",
+      "class": "10",
+      "section": "A",
+      "subject": "English",
+      "exam_date": "2025-04-29",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "room_no": "103"
+    },
+    {
+      "id": "4",
+      "class": "10",
+      "section": "A",
+      "subject": "Hindi",
+      "exam_date": "2025-05-01",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "room_no": "101"
+    },
+    {
+      "id": "5",
+      "class": "10",
+      "section": "A",
+      "subject": "Social Science",
+      "exam_date": "2025-05-03",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "room_no": "104"
+    },
+    {
+      "id": "6",
+      "class": "9",
+      "section": "B",
+      "subject": "Mathematics",
+      "exam_date": "2025-04-25",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "room_no": "105"
+    },
+    {
+      "id": "7",
+      "class": "9",
+      "section": "B",
+      "subject": "Science",
+      "exam_date": "2025-04-27",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "room_no": "106"
+    },
+    {
+      "id": "8",
+      "class": "9",
+      "section": "B",
+      "subject": "English",
+      "exam_date": "2025-04-29",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "room_no": "107"
+    },
+    {
+      "id": "9",
+      "class": "9",
+      "section": "B",
+      "subject": "Hindi",
+      "exam_date": "2025-05-01",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "room_no": "105"
+    },
+    {
+      "id": "10",
+      "class": "9",
+      "section": "B",
+      "subject": "Social Science",
+      "exam_date": "2025-05-03",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "room_no": "106"
+    },
+    {
+      "id": "11",
+      "class": "8",
+      "section": "C",
+      "subject": "Mathematics",
+      "exam_date": "2025-04-26",
+      "start_time": "09:00",
+      "end_time": "12:00",
+      "room_no": "108"
+    },
+    {
+      "id": "12",
+      "class": "8",
+      "section": "C",
+      "subject": "Science",
+      "exam_date": "2025-04-28",
+      "start_time": "09:00",
+      "end_time": "12:00",
+      "room_no": "109"
+    },
+    {
+      "id": "13",
+      "class": "8",
+      "section": "C",
+      "subject": "English",
+      "exam_date": "2025-04-30",
+      "start_time": "09:00",
+      "end_time": "12:00",
+      "room_no": "110"
+    },
+    {
+      "id": "14",
+      "class": "8",
+      "section": "C",
+      "subject": "Hindi",
+      "exam_date": "2025-05-02",
+      "start_time": "09:00",
+      "end_time": "12:00",
+      "room_no": "108"
+    },
+    {
+      "id": "15",
+      "class": "8",
+      "section": "C",
+      "subject": "Social Science",
+      "exam_date": "2025-05-04",
+      "start_time": "09:00",
+      "end_time": "12:00",
+      "room_no": "109"
+    }
+  ]
+  

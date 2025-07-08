@@ -1,0 +1,27 @@
+@import "../../../../../styles/variables.scss";
+
+.studentpage{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-inline: 50px;
+
+    &__image{
+        width: 300px !important;
+        height: 300px !important;
+        border-radius: 0.375rem;
+    }
+
+    &__contentinner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        strong{
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+
+        }
+    }
+}

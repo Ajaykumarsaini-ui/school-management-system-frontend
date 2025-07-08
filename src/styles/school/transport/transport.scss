@@ -1,0 +1,10 @@
+@import'../../variables';
+
+h1{
+    font-size: clamp(1rem , 2.4vw , 1.9rem);
+    font-weight: 700;
+    color: $dark-purple;
+    text-align: center;
+    padding-block: 20px ; 
+}
+

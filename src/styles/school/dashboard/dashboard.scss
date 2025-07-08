@@ -1,0 +1,51 @@
+@import "../../variables";
+
+.welcome {
+  display: grid;
+  gap: 2px;
+
+  // h1{
+
+  // }
+
+  p {
+    font-size: clamp(0.7rem, 2vw, 0.8rem);
+    font-weight: 400;
+    color: $black;
+  }
+}
+
+.stats-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 220px;
+  min-height: 100px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  }
+}
+
+.label {
+  font-size: clamp(00.7rem , 2vw , 0.9rem);
+  color: #444;
+  font-weight: 500;
+
+  margin-bottom: 0.3rem;
+}
+
+.count {
+  font-size:clamp(1.0rem , 2.5vw , 1.2rem);
+  font-weight: 700;
+  color: #222;
+}
+
+.icon {
+  margin-left: 1rem;
+}

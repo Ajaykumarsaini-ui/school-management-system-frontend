@@ -1,0 +1,119 @@
+@import "../_variables.scss";
+
+.subject-card {
+  border: 2px solid #e5e7eb;
+  transition: all 0.3s ease;
+  // min-width: 400px;
+
+  &:hover {
+    transform: translateY(-4px);
+    border-color:$light-purple;
+  }
+  h2 {
+    text-align: center;
+    color: $dark-orange;
+    font-size: clamp(0.8rem, 2vw, 1.4rem);
+    font-weight: 600;
+    padding-block: 7px;
+  }
+
+  p {
+    font-size: clamp(0.7rem, 1.5vw, 0.9rem);
+    font-weight: 500;
+    color: $slate-gray;
+    strong{
+        color: $muted-red;
+    }
+  }
+
+  a{
+    color: $dark-purple;
+    font-weight: 500;
+    text-decoration: none;
+    border: 1px solid $light-purple;
+    padding: 5px 10px;
+    border-radius: 5px;
+    // background-color: $;
+
+    &:hover{
+        color: $white;
+        background-color: $dark-purple;
+    }
+
+  }
+
+
+
+}
+
+.teacher-btns{
+  padding-block: 10px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  .edit{
+      font-size: 16px;
+      background-color: $light-purple;
+      color: $black;
+      padding-block: 3px !important;
+
+      &:hover{
+          color: $white;
+          background-color: $dark-purple;
+      }
+
+
+
+
+  }
+  .delete{
+      font-size: 16px;
+      background-color: $light-purple;
+      color: $black;
+      padding-block: 3px !important;
+
+      &:hover{
+          color: $white;
+          background-color: $dark-purple;
+      }
+
+
+
+
+
+  }
+}
+
+.teacher-btn {
+  background-color: $light-purple;
+  color: $black;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $dark-purple;
+    color: $white;
+  }
+}
+
+
+
+// // 🎨 School Management System Color Palette with Usage Suggestions
+
+// $primary-green: #2DFF5B; // Main theme color - great for buttons, links, headings
+// $primary-blue: #1E40AF; // Secondary theme color - good for links, buttons, accents
+// $light-blue: #486198	; // Light accent - good for hover states, backgrounds, card highlights
+// $light-orange-: #f9b72f; // Light accent - good for hover states, backgrounds, card highlights
+// $dark-orange: #ff8633; // Strong UI base - ideal for navbar, footer, sidebar, active tabs
+// $muted-red: #a46474; // Subtle alert tone - perfect for warnings, errors, delete actions
+// $soft-beige: #cbb9a6; // Neutral background - good for card backgrounds, forms, light sections
+// $slate-gray: #3f3b59; // Elegant dark tone - great for text, icons, borders, dark UI areas
+// $white: #ffffff; // White for text and background
+// $black: #1d1d1d; // Black for text and background
+// $light-purple: #e9d5ff;
+// $dark-purple: #6b21a8;
+
+
+
+
+
+

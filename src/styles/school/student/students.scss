@@ -1,0 +1,26 @@
+@import'../../variables' ;
+
+.students-container {
+
+    h1{
+        color: $dark-purple;
+    }
+    thead{
+        color: $dark-purple;
+        background-color: $light-purple;
+    }
+  
+    table {
+      border-collapse: collapse;
+  
+      th {
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+  
+      td, th {
+        transition: all 0.2s ease-in-out;
+      }
+    }
+  }
+  

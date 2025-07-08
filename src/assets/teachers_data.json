@@ -1,0 +1,562 @@
+[
+  {
+    "name": "Rajesh Sharma",
+    "photo": "https://picsum.photos/150",
+    "subject": "Mathematics",
+    "class": "8th",
+    "contact": {
+      "phone": "9250912471",
+      "email": "rajesh.sharma0@example.com"
+    },
+    "performance": {
+      "attendance": "86%",
+      "rating": "A"
+    }
+  },
+  {
+    "name": "Divya Verma",
+    "photo": "https://picsum.photos/150",
+    "subject": "Biology",
+    "class": "12th",
+    "contact": {
+      "phone": "9159731963",
+      "email": "divya.verma1@example.com"
+    },
+    "performance": {
+      "attendance": "89%",
+      "rating": "A"
+    }
+  },
+  {
+    "name": "Karan Chauhan",
+    "photo": "https://picsum.photos/150",
+    "subject": "Computer",
+    "class": "9th",
+    "contact": {
+      "phone": "9225138882",
+      "email": "karan.chauhan2@example.com"
+    },
+    "performance": {
+      "attendance": "87%",
+      "rating": "A-"
+    }
+  },
+  {
+    "name": "Manoj Singh",
+    "photo": "https://picsum.photos/150",
+    "subject": "Geography",
+    "class": "6th",
+    "contact": {
+      "phone": "9670452100",
+      "email": "manoj.singh3@example.com"
+    },
+    "performance": {
+      "attendance": "91%",
+      "rating": "A-"
+    }
+  },
+  {
+    "name": "Manoj Rana",
+    "photo": "https://picsum.photos/150",
+    "subject": "Computer",
+    "class": "7th",
+    "contact": {
+      "phone": "9250021660",
+      "email": "manoj.rana4@example.com"
+    },
+    "performance": {
+      "attendance": "85%",
+      "rating": "A-"
+    }
+  },
+  {
+    "name": "Suman Mehta",
+    "photo": "https://picsum.photos/150",
+    "subject": "Physics",
+    "class": "8th",
+    "contact": {
+      "phone": "9214158438",
+      "email": "suman.mehta5@example.com"
+    },
+    "performance": {
+      "attendance": "89%",
+      "rating": "A"
+    }
+  },
+  {
+    "name": "Divya Verma",
+    "photo": "https://picsum.photos/150",
+    "subject": "Biology",
+    "class": "9th",
+    "contact": {
+      "phone": "9886503638",
+      "email": "divya.verma6@example.com"
+    },
+    "performance": {
+      "attendance": "100%",
+      "rating": "B+"
+    }
+  },
+  {
+    "name": "Manoj Sharma",
+    "photo": "https://picsum.photos/150",
+    "subject": "Computer",
+    "class": "8th",
+    "contact": {
+      "phone": "9223349678",
+      "email": "manoj.sharma7@example.com"
+    },
+    "performance": {
+      "attendance": "99%",
+      "rating": "B+"
+    }
+  },
+  {
+    "name": "Pooja Chauhan",
+    "photo": "https://picsum.photos/150",
+    "subject": "Science",
+    "class": "8th",
+    "contact": {
+      "phone": "9553877561",
+      "email": "pooja.chauhan8@example.com"
+    },
+    "performance": {
+      "attendance": "97%",
+      "rating": "A-"
+    }
+  },
+  {
+    "name": "Neha Sharma",
+    "photo": "https://picsum.photos/150",
+    "subject": "Geography",
+    "class": "9th",
+    "contact": {
+      "phone": "9590656536",
+      "email": "neha.sharma9@example.com"
+    },
+    "performance": {
+      "attendance": "94%",
+      "rating": "C+"
+    }
+  },
+  {
+    "name": "Suman Chauhan",
+    "photo": "https://picsum.photos/150",
+    "subject": "Computer",
+    "class": "6th",
+    "contact": {
+      "phone": "9968778801",
+      "email": "suman.chauhan10@example.com"
+    },
+    "performance": {
+      "attendance": "93%",
+      "rating": "A-"
+    }
+  },
+  {
+    "name": "Divya Mishra",
+    "photo": "https://picsum.photos/150",
+    "subject": "Chemistry",
+    "class": "8th",
+    "contact": {
+      "phone": "9709871371",
+      "email": "divya.mishra11@example.com"
+    },
+    "performance": {
+      "attendance": "98%",
+      "rating": "C+"
+    }
+  },
+  {
+    "name": "Pooja Gupta",
+    "photo": "https://picsum.photos/150",
+    "subject": "English",
+    "class": "7th",
+    "contact": {
+      "phone": "9770501581",
+      "email": "pooja.gupta12@example.com"
+    },
+    "performance": {
+      "attendance": "97%",
+      "rating": "B+"
+    }
+  },
+  {
+    "name": "Neha Gupta",
+    "photo": "https://picsum.photos/150",
+    "subject": "Geography",
+    "class": "10th",
+    "contact": {
+      "phone": "9888522431",
+      "email": "neha.gupta13@example.com"
+    },
+    "performance": {
+      "attendance": "97%",
+      "rating": "A-"
+    }
+  },
+  {
+    "name": "Pooja Yadav",
+    "photo": "https://picsum.photos/150",
+    "subject": "Biology",
+    "class": "7th",
+    "contact": {
+      "phone": "9194573715",
+      "email": "pooja.yadav14@example.com"
+    },
+    "performance": {
+      "attendance": "99%",
+      "rating": "A-"
+    }
+  },
+  {
+    "name": "Ankit Verma",
+    "photo": "https://picsum.photos/150",
+    "subject": "History",
+    "class": "11th",
+    "contact": {
+      "phone": "9845352465",
+      "email": "ankit.verma15@example.com"
+    },
+    "performance": {
+      "attendance": "87%",
+      "rating": "C+"
+    }
+  },
+  {
+    "name": "Manoj Singh",
+    "photo": "https://picsum.photos/150",
+    "subject": "Biology",
+    "class": "6th",
+    "contact": {
+      "phone": "9189236706",
+      "email": "manoj.singh16@example.com"
+    },
+    "performance": {
+      "attendance": "86%",
+      "rating": "C+"
+    }
+  },
+  {
+    "name": "Suman Patel",
+    "photo": "https://picsum.photos/150",
+    "subject": "Geography",
+    "class": "9th",
+    "contact": {
+      "phone": "9188789883",
+      "email": "suman.patel17@example.com"
+    },
+    "performance": {
+      "attendance": "97%",
+      "rating": "B+"
+    }
+  },
+  {
+    "name": "Divya Rana",
+    "photo": "https://picsum.photos/150",
+    "subject": "Computer",
+    "class": "8th",
+    "contact": {
+      "phone": "9758132783",
+      "email": "divya.rana18@example.com"
+    },
+    "performance": {
+      "attendance": "88%",
+      "rating": "A-"
+    }
+  },
+  {
+    "name": "Amit Chauhan",
+    "photo": "https://picsum.photos/150",
+    "subject": "Biology",
+    "class": "10th",
+    "contact": {
+      "phone": "9107342647",
+      "email": "amit.chauhan19@example.com"
+    },
+    "performance": {
+      "attendance": "100%",
+      "rating": "B+"
+    }
+  },
+  {
+    "name": "Pooja Sharma",
+    "photo": "https://picsum.photos/150",
+    "subject": "Mathematics",
+    "class": "6th",
+    "contact": {
+      "phone": "9531670118",
+      "email": "pooja.sharma20@example.com"
+    },
+    "performance": {
+      "attendance": "91%",
+      "rating": "A"
+    }
+  },
+  {
+    "name": "Meena Singh",
+    "photo": "https://picsum.photos/150",
+    "subject": "Mathematics",
+    "class": "8th",
+    "contact": {
+      "phone": "9316685398",
+      "email": "meena.singh21@example.com"
+    },
+    "performance": {
+      "attendance": "100%",
+      "rating": "B"
+    }
+  },
+  {
+    "name": "Ankit Chauhan",
+    "photo": "https://picsum.photos/150",
+    "subject": "Physics",
+    "class": "6th",
+    "contact": {
+      "phone": "9581134137",
+      "email": "ankit.chauhan22@example.com"
+    },
+    "performance": {
+      "attendance": "96%",
+      "rating": "A"
+    }
+  },
+  {
+    "name": "Suman Sharma",
+    "photo": "https://picsum.photos/150",
+    "subject": "Geography",
+    "class": "9th",
+    "contact": {
+      "phone": "9350584107",
+      "email": "suman.sharma23@example.com"
+    },
+    "performance": {
+      "attendance": "95%",
+      "rating": "B"
+    }
+  },
+  {
+    "name": "Ankit Singh",
+    "photo": "https://picsum.photos/150",
+    "subject": "Mathematics",
+    "class": "8th",
+    "contact": {
+      "phone": "9780503752",
+      "email": "ankit.singh24@example.com"
+    },
+    "performance": {
+      "attendance": "100%",
+      "rating": "A"
+    }
+  },
+  {
+    "name": "Suman Singh",
+    "photo": "https://picsum.photos/150",
+    "subject": "Hindi",
+    "class": "10th",
+    "contact": {
+      "phone": "9292304334",
+      "email": "suman.singh25@example.com"
+    },
+    "performance": {
+      "attendance": "92%",
+      "rating": "C+"
+    }
+  },
+  {
+    "name": "Ankit Mehta",
+    "photo": "https://picsum.photos/150",
+    "subject": "Chemistry",
+    "class": "9th",
+    "contact": {
+      "phone": "9588112827",
+      "email": "ankit.mehta26@example.com"
+    },
+    "performance": {
+      "attendance": "89%",
+      "rating": "B"
+    }
+  },
+  {
+    "name": "Meena Singh",
+    "photo": "https://picsum.photos/150",
+    "subject": "Hindi",
+    "class": "6th",
+    "contact": {
+      "phone": "9417872128",
+      "email": "meena.singh27@example.com"
+    },
+    "performance": {
+      "attendance": "97%",
+      "rating": "A-"
+    }
+  },
+  {
+    "name": "Rajesh Verma",
+    "photo": "https://picsum.photos/150",
+    "subject": "Science",
+    "class": "9th",
+    "contact": {
+      "phone": "9234337709",
+      "email": "rajesh.verma28@example.com"
+    },
+    "performance": {
+      "attendance": "86%",
+      "rating": "A-"
+    }
+  },
+  {
+    "name": "Pooja Mehta",
+    "photo": "https://picsum.photos/150",
+    "subject": "Biology",
+    "class": "12th",
+    "contact": {
+      "phone": "9363972995",
+      "email": "pooja.mehta29@example.com"
+    },
+    "performance": {
+      "attendance": "88%",
+      "rating": "C+"
+    }
+  },
+  {
+    "name": "Karan Yadav",
+    "photo": "https://picsum.photos/150",
+    "subject": "Computer",
+    "class": "10th",
+    "contact": {
+      "phone": "9964886611",
+      "email": "karan.yadav30@example.com"
+    },
+    "performance": {
+      "attendance": "90%",
+      "rating": "B+"
+    }
+  },
+  {
+    "name": "Pooja Patel",
+    "photo": "https://picsum.photos/150",
+    "subject": "Science",
+    "class": "10th",
+    "contact": {
+      "phone": "9168279266",
+      "email": "pooja.patel31@example.com"
+    },
+    "performance": {
+      "attendance": "96%",
+      "rating": "C+"
+    }
+  },
+  {
+    "name": "Ankit Chauhan",
+    "photo": "https://picsum.photos/150",
+    "subject": "Mathematics",
+    "class": "6th",
+    "contact": {
+      "phone": "9211060644",
+      "email": "ankit.chauhan32@example.com"
+    },
+    "performance": {
+      "attendance": "85%",
+      "rating": "A-"
+    }
+  },
+  {
+    "name": "Ankit Patel",
+    "photo": "https://picsum.photos/150",
+    "subject": "Chemistry",
+    "class": "9th",
+    "contact": {
+      "phone": "9367410353",
+      "email": "ankit.patel33@example.com"
+    },
+    "performance": {
+      "attendance": "86%",
+      "rating": "B+"
+    }
+  },
+  {
+    "name": "Manoj Sharma",
+    "photo": "https://picsum.photos/150",
+    "subject": "English",
+    "class": "9th",
+    "contact": {
+      "phone": "9750201493",
+      "email": "manoj.sharma34@example.com"
+    },
+    "performance": {
+      "attendance": "88%",
+      "rating": "A-"
+    }
+  },
+  {
+    "name": "Karan Rana",
+    "photo": "https://picsum.photos/150",
+    "subject": "English",
+    "class": "6th",
+    "contact": {
+      "phone": "9821079363",
+      "email": "karan.rana35@example.com"
+    },
+    "performance": {
+      "attendance": "85%",
+      "rating": "B"
+    }
+  },
+  {
+    "name": "Ankit Gupta",
+    "photo": "https://picsum.photos/150",
+    "subject": "History",
+    "class": "6th",
+    "contact": {
+      "phone": "9154888943",
+      "email": "ankit.gupta36@example.com"
+    },
+    "performance": {
+      "attendance": "96%",
+      "rating": "C+"
+    }
+  },
+  {
+    "name": "Neha Verma",
+    "photo": "https://picsum.photos/150",
+    "subject": "History",
+    "class": "7th",
+    "contact": {
+      "phone": "9268248475",
+      "email": "neha.verma37@example.com"
+    },
+    "performance": {
+      "attendance": "97%",
+      "rating": "B+"
+    }
+  },
+  {
+    "name": "Suman Mehta",
+    "photo": "https://picsum.photos/150",
+    "subject": "Computer",
+    "class": "9th",
+    "contact": {
+      "phone": "9427003351",
+      "email": "suman.mehta38@example.com"
+    },
+    "performance": {
+      "attendance": "98%",
+      "rating": "C+"
+    }
+  },
+  {
+    "name": "Meena Patel",
+    "photo": "https://picsum.photos/150",
+    "subject": "Mathematics",
+    "class": "10th",
+    "contact": {
+      "phone": "9664055172",
+      "email": "meena.patel39@example.com"
+    },
+    "performance": {
+      "attendance": "92%",
+      "rating": "A"
+    }
+  }
+]

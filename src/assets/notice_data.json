@@ -1,0 +1,163 @@
+[
+    {
+      "id": 1,
+      "title": "Annual Sports Day",
+      "description": "Annual Sports Day will be held on 25th April in the school ground.",
+      "date": "2025-04-25",
+      "category": "Event",
+      "attachment": "https://schoolsite.com/attachments/sports-day.pdf"
+    },
+    {
+      "id": 2,
+      "title": "Parent-Teacher Meeting",
+      "description": "PTM is scheduled for all classes on 20th April from 9 AM to 12 PM.",
+      "date": "2025-04-20",
+      "category": "Meeting",
+      "attachment": "https://schoolsite.com/attachments/ptm-invite.pdf"
+    },
+    {
+      "id": 3,
+      "title": "Summer Vacation",
+      "description": "Summer vacation will begin from 1st May and school will reopen on 15th June.",
+      "date": "2025-04-30",
+      "category": "Holiday",
+      "attachment": ""
+    },
+    {
+      "id": 4,
+      "title": "School Magazine Submission",
+      "description": "Last date to submit articles for school magazine is 22nd April.",
+      "date": "2025-04-18",
+      "category": "General",
+      "attachment": "https://schoolsite.com/attachments/magazine-guidelines.pdf"
+    },
+    {
+      "id": 5,
+      "title": "Science Exhibition",
+      "description": "Science exhibition for Class 6-10 will be held on 28th April.",
+      "date": "2025-04-28",
+      "category": "Event",
+      "attachment": "https://schoolsite.com/attachments/science-exhibition-details.pdf"
+    },
+    {
+      "id": 6,
+      "title": "Yoga Day Celebration",
+      "description": "Students should come in sports uniform for Yoga Day on 21st June.",
+      "date": "2025-06-21",
+      "category": "Event",
+      "attachment": ""
+    },
+    {
+      "id": 7,
+      "title": "Exam Time Table Release",
+      "description": "Mid-term exam time table will be released on 30th April.",
+      "date": "2025-04-30",
+      "category": "Exam",
+      "attachment": "https://schoolsite.com/attachments/midterm-timetable.pdf"
+    },
+    {
+      "id": 8,
+      "title": "Library Week",
+      "description": "Library week will be observed from 5th to 10th May with various activities.",
+      "date": "2025-05-05",
+      "category": "Activity",
+      "attachment": ""
+    },
+    {
+      "id": 9,
+      "title": "English Debate Competition",
+      "description": "Debate competition will be conducted on 27th April in the auditorium.",
+      "date": "2025-04-27",
+      "category": "Competition",
+      "attachment": "https://schoolsite.com/attachments/debate-topics.pdf"
+    },
+    {
+      "id": 10,
+      "title": "Vaccination Drive",
+      "description": "Free vaccination for students of Class 1 to 5 on 24th April.",
+      "date": "2025-04-24",
+      "category": "Health",
+      "attachment": "https://schoolsite.com/attachments/vaccination-consent-form.pdf"
+    },
+    {
+      "id": 11,
+      "title": "Earth Day Activities",
+      "description": "Eco club to organize plantation drive on Earth Day (22nd April).",
+      "date": "2025-04-22",
+      "category": "Event",
+      "attachment": ""
+    },
+    {
+      "id": 12,
+      "title": "Fees Submission Reminder",
+      "description": "Last date to submit school fees for Q1 is 30th April.",
+      "date": "2025-04-17",
+      "category": "Finance",
+      "attachment": ""
+    },
+    {
+      "id": 13,
+      "title": "Dance Workshop",
+      "description": "Dance workshop for interested students from 26th to 29th April.",
+      "date": "2025-04-26",
+      "category": "Workshop",
+      "attachment": "https://schoolsite.com/attachments/dance-workshop-schedule.pdf"
+    },
+    {
+      "id": 14,
+      "title": "Scholarship Exam",
+      "description": "Scholarship exam for Class 8 and 10 on 2nd May.",
+      "date": "2025-05-02",
+      "category": "Exam",
+      "attachment": ""
+    },
+    {
+      "id": 15,
+      "title": "New Admission Orientation",
+      "description": "Orientation program for new students on 23rd April.",
+      "date": "2025-04-23",
+      "category": "General",
+      "attachment": "https://schoolsite.com/attachments/orientation-agenda.pdf"
+    },
+    {
+      "id": 16,
+      "title": "Lab Maintenance Week",
+      "description": "All labs will remain closed for maintenance from 1st to 3rd May.",
+      "date": "2025-05-01",
+      "category": "Infrastructure",
+      "attachment": ""
+    },
+    {
+      "id": 17,
+      "title": "Teacher's Training Session",
+      "description": "Training session for teachers on 19th April at 3 PM.",
+      "date": "2025-04-19",
+      "category": "Staff",
+      "attachment": "https://schoolsite.com/attachments/teacher-training-invite.pdf"
+    },
+    {
+      "id": 18,
+      "title": "Art & Craft Exhibition",
+      "description": "Art & craft exhibition in main hall on 29th April.",
+      "date": "2025-04-29",
+      "category": "Event",
+      "attachment": ""
+    },
+    {
+      "id": 19,
+      "title": "Online Classes Schedule",
+      "description": "New online class schedule will be shared on 18th April.",
+      "date": "2025-04-18",
+      "category": "Academic",
+      "attachment": "https://schoolsite.com/attachments/online-class-schedule.pdf"
+    },
+    {
+      "id": 20,
+      "title": "Holiday Notice",
+      "description": "School will remain closed on 1st May due to Labour Day.",
+      "date": "2025-05-01",
+      "category": "Holiday",
+      "attachment": ""
+    }
+  ]
+  

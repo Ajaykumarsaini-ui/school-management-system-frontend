@@ -1,0 +1,113 @@
+[
+    {
+      "id": 1,
+      "vehicle_number": "RJ14 AB 1234",
+      "driver_name": "Ramesh Singh",
+      "driver_contact": "9876543210",
+      "driver_licence": "RJ14DL123456",
+      "route_name": "Mansarovar - School",
+      "timing": "7:00 AM - 2:30 PM",
+      "seating_capacity": 40,
+      "maintenance_status": "Completed"
+    },
+    {
+      "id": 2,
+      "vehicle_number": "RJ14 CD 5678",
+      "driver_name": "Suresh Yadav",
+      "driver_contact": "9823456789",
+      "driver_licence": "RJ14DL987654",
+      "route_name": "Vaishali Nagar - School",
+      "timing": "7:10 AM - 2:40 PM",
+      "seating_capacity": 45,
+      "maintenance_status": "Pending"
+    },
+    {
+      "id": 3,
+      "vehicle_number": "RJ14 EF 9012",
+      "driver_name": "Mahesh Meena",
+      "driver_contact": "9812345678",
+      "driver_licence": "RJ14DL111222",
+      "route_name": "Jagatpura - School",
+      "timing": "6:45 AM - 2:20 PM",
+      "seating_capacity": 50,
+      "maintenance_status": "Scheduled"
+    },
+    {
+      "id": 4,
+      "vehicle_number": "RJ14 GH 3456",
+      "driver_name": "Vinod Sharma",
+      "driver_contact": "9988776655",
+      "driver_licence": "RJ14DL333444",
+      "route_name": "Jhotwara - School",
+      "timing": "7:15 AM - 2:50 PM",
+      "seating_capacity": 42,
+      "maintenance_status": "Completed"
+    },
+    {
+      "id": 5,
+      "vehicle_number": "RJ14 IJ 7890",
+      "driver_name": "Anil Kumar",
+      "driver_contact": "9765432109",
+      "driver_licence": "RJ14DL555666",
+      "route_name": "Amer Road - School",
+      "timing": "7:20 AM - 2:55 PM",
+      "seating_capacity": 38,
+      "maintenance_status": "Pending"
+    },
+    {
+      "id": 6,
+      "vehicle_number": "RJ14 KL 1122",
+      "driver_name": "Mukesh Choudhary",
+      "driver_contact": "9898989898",
+      "driver_licence": "RJ14DL777888",
+      "route_name": "Tonk Road - School",
+      "timing": "7:05 AM - 2:35 PM",
+      "seating_capacity": 44,
+      "maintenance_status": "Completed"
+    },
+    {
+      "id": 7,
+      "vehicle_number": "RJ14 MN 3344",
+      "driver_name": "Ravi Jain",
+      "driver_contact": "9845671234",
+      "driver_licence": "RJ14DL999000",
+      "route_name": "Sanganer - School",
+      "timing": "6:50 AM - 2:25 PM",
+      "seating_capacity": 40,
+      "maintenance_status": "Scheduled"
+    },
+    {
+      "id": 8,
+      "vehicle_number": "RJ14 OP 5566",
+      "driver_name": "Devendra Verma",
+      "driver_contact": "9871234567",
+      "driver_licence": "RJ14DL123789",
+      "route_name": "Shastri Nagar - School",
+      "timing": "7:25 AM - 3:00 PM",
+      "seating_capacity": 36,
+      "maintenance_status": "Pending"
+    },
+    {
+      "id": 9,
+      "vehicle_number": "RJ14 QR 7788",
+      "driver_name": "Narendra Joshi",
+      "driver_contact": "9810011223",
+      "driver_licence": "RJ14DL456321",
+      "route_name": "Malviya Nagar - School",
+      "timing": "7:00 AM - 2:30 PM",
+      "seating_capacity": 48,
+      "maintenance_status": "Completed"
+    },
+    {
+      "id": 10,
+      "vehicle_number": "RJ14 ST 9900",
+      "driver_name": "Pankaj Yadav",
+      "driver_contact": "9911223344",
+      "driver_licence": "RJ14DL741852",
+      "route_name": "Gopalpura - School",
+      "timing": "7:10 AM - 2:45 PM",
+      "seating_capacity": 39,
+      "maintenance_status": "Scheduled"
+    }
+  ]
+  

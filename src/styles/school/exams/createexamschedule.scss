@@ -1,0 +1,18 @@
+@import'../../variables';
+
+.create-exam-container {
+    
+    .schedule-create-btn{
+        background-color: $light-purple;
+        color: $black;
+        height: fit-content;
+        padding-block: 5px !important;
+        margin-top: 20px;
+        cursor: pointer;
+        &:hover {
+          color: $white;
+          background-color: $dark-purple;
+        }
+    }
+  }
+  

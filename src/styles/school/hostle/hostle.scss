@@ -1,0 +1,33 @@
+@import'../../variables';
+
+.hostle-page {
+  
+    .hostle-card {
+      transition: box-shadow 0.3s ease;
+      &:hover {
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      }
+
+      span{
+        color: $muted-red;
+      }
+  
+      img {
+        border-bottom: 1px solid #e5e7eb;
+      }
+  
+      p {
+        color: #4b5563;
+      }
+  
+    
+        h2 {
+            text-align: center;
+            color: $dark-orange;
+            font-size: clamp(0.8rem, 2vw, 1.4rem);
+            font-weight: 600;
+            padding-block: 15px;
+          }      
+    }
+  }
+  

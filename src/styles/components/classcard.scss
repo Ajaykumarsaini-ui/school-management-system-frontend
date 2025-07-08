@@ -1,0 +1,92 @@
+@import '../variables.scss';
+
+.class-card{
+    border: 1px solid $light-purple;
+    transition: all 0.3s ease;
+    min-width: 400px;
+
+    &:hover{
+        border-color: $dark-purple;
+    }
+
+
+
+
+    h2{
+      strong{
+        color: $dark-orange;
+      }
+        color: $light-orange;
+        text-align: center;
+        font-size: clamp(0.8rem , 2vw , 1.3rem);
+    }
+
+    .teacher-btns{
+        padding-block: 10px;
+        padding-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        .edit{
+            font-size: 16px;
+            background-color: $light-purple;
+            color: $black;
+            padding-block: 3px !important;
+    
+            &:hover{
+                color: $white;
+                background-color: $dark-purple;
+            }
+    
+    
+    
+    
+        }
+        .delete{
+            font-size: 16px;
+            background-color: $light-purple;
+            color: $black;
+            padding-block: 3px !important;
+    
+            &:hover{
+                color: $white;
+                background-color: $dark-purple;
+            }
+    
+    
+    
+    
+    
+        }
+      }
+    
+      .teacher-btn {
+        background-color: $light-purple;
+        color: $black;
+        cursor: pointer;
+    
+        &:hover {
+          background-color: $dark-purple;
+          color: $white;
+        }
+      }
+
+      p{
+        font-size: clamp(0.7rem, 1.5vw, 0.9rem);
+    font-weight: 500;
+    color: $slate-gray;
+
+
+    strong{
+      color: $muted-red;
+    }
+
+      }
+
+
+
+
+
+}
+
+
+

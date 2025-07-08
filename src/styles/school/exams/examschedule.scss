@@ -1,0 +1,22 @@
+@import'../../variables';
+
+.exam-card {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  
+    &:hover {
+      transform: scale(1.05);
+      border-color: #2563eb; // Tailwind blue-600
+    }
+  }
+  
+  .schedule-create-btn{
+    background-color: $light-purple;
+    color: $black;
+    height: fit-content;
+    padding-block: 5px !important;
+    &:hover {
+      color: $white;
+      background-color: $dark-purple;
+    }
+  }
