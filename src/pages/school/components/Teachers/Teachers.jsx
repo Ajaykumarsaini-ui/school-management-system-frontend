@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from "react";
 import "../../../../styles/school/teachers/teachers.scss";
 import "../../../../styles/components/navbar.scss";
-import Button from "../../../../components/Button";
+import Button from "../../../../components/Button.jsx";
 import { Link, NavLink } from "react-router";
 import { ChevronDown, Search } from "lucide-react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useTeachers } from "../../../../CustomHooks/useTeachers.js";
-import LogoutModal from "../../../Client/components/logout/Logout.jsx";
 
 const Teachers = () => {
   const [search, setSearch] = useState("");

@@ -7,10 +7,7 @@ import Dashboard from "../pages/school/components/dashboard/Dashboard";
 import Addstudents from "../pages/school/components/students/Add-students";
 import Students from "../pages/school/components/students/Students";
 import Singlestudents from "../pages/school/components/students/getsinglestudent/Getsinglestudent";
-
 import Addteachers from "../pages/school/components/teachers/Add-teachers";
-import Teachers from "../pages/school/components/teachers/Teachers";
-
 import Addclass from "../pages/school/components/class/Add-class";
 import Class from "../pages/school/components/class/Classpage";
 
@@ -30,17 +27,17 @@ import Viewstudenttransportregistred from "../pages/school/components/transport/
 
 import Accountpage from "../pages/school/components/account/Accountpage";
 import Librarypage from "../pages/school/components/library/Librarypage";
-
+import Teachers from "../pages/school/components/teachers/Teachers";
 // Exams
 import CreateExamschedule from "../pages/school/components/exams/CreateExamschedule";
 import Examschedule from "../pages/school/components/exams/Examschedule";
 import Examresult from "../pages/school/components/exams/Examresult";
 import ProtectedRoutes from "./Protectedroutes";
 
-//student leave 
+//student leave
 import Leavestudent from "../pages/school/components/studentleave/Studentleave";
 
-//teacher leave 
+//teacher leave
 import Leaveteacher from "../pages/school/components/teacherleave/Teacherleave";
 //student message
 import Studentmessage from "../pages/school/components/studentmessage/Studentmessage";
@@ -87,6 +84,5 @@ export const SchoolRoutes = () => (
     <Route path="studentmessage" element={<Studentmessage />} />
     <Route path="teacherleave" element={<Leaveteacher />} />
     <Route path="teachermessage" element={<Teachermessage />} />
-
   </Route>
 );
