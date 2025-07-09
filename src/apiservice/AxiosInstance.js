@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:5000/api", // or use process.env for env-based URL
+  baseURL: "https://backend-school-api-pev2.onrender.com/api", // or use process.env for env-based URL
   withCredentials: true, // move this inside the main object
 });
 

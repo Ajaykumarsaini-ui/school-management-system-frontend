@@ -7,7 +7,7 @@ import Dashboard from "../pages/school/components/dashboard/Dashboard";
 import Addstudents from "../pages/school/components/students/Add-students";
 import Students from "../pages/school/components/students/Students";
 import Singlestudents from "../pages/school/components/students/getsinglestudent/Getsinglestudent";
-import Addteachers from "../pages/school/components/teachers/Add-teachers";
+import Addteachers from "../pages/school/components/teachers/Addteachers";
 import Addclass from "../pages/school/components/class/Add-class";
 import Class from "../pages/school/components/class/Classpage";
 
