@@ -5,7 +5,7 @@ import Button from "../../../../components/Button";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useTeachers } from "../../../../CustomHooks/useTeachers";
-const AddTeacher = () => {
+const Addteacherdata = () => {
   const {
     register,
     handleSubmit,
@@ -173,4 +173,4 @@ const AddTeacher = () => {
   );
 };
 
-export default AddTeacher;
+export default Addteacherdata;
