@@ -6,7 +6,7 @@ import importPlugin from 'eslint-plugin-import';
 
 export default [
   {
-    ignores: ['dist', 'node_modules'], // ignore build folders
+    ignores: ['dist', 'node_modules'],
   },
   {
     files: ['**/*.{js,jsx}'],
@@ -22,26 +22,24 @@ export default [
     plugins: {
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
-      'import': importPlugin, // ✅ added for import rules
+      'import': importPlugin,
     },
     rules: {
       ...js.configs.recommended.rules,
       ...reactHooks.configs.recommended.rules,
 
-      // ✅ General Code Quality
       'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
       ],
 
-      // ✅ Import Rules (🟦 Newly Added)
-      'import/no-unresolved': 'error',             // 🟦 Detect missing files
-      'import/no-duplicates': 'error',             // 🟦 Same file imported twice
-      'import/no-cycle': 'warn',                   // 🟦 Detect circular dependencies
-      'import/no-useless-path-segments': 'warn',   // 🟦 Detect "./../"
-      'import/no-relative-parent-imports': 'off',  // Optional
-      'import/no-case-sensitive-path': 'error',    // 🟦 Detect casing mismatch
+      // ✅ Import Rules (except the invalid one)
+      'import/no-unresolved': 'error',
+      'import/no-duplicates': 'error',
+      'import/no-cycle': 'warn',
+      'import/no-useless-path-segments': 'warn',
+      'import/no-relative-parent-imports': 'off',
     },
   },
 ];
