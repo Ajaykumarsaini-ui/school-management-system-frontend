@@ -60,7 +60,7 @@ export const SchoolRoutes = () => (
   >
     <Route index element={<Dashboard />} />
     <Route path="addstudents" element={<AddStudents />} />
-    <Route path="addteachers" element={<AddTeacher />} />
+    <Route path="addteachers" element={<AddTeachers />} />
     <Route path="addsubject" element={<AddSubject />} />
     <Route path="addhostle" element={<Addhostle />} />
     <Route path="addnotice" element={<Addnotice />} />
