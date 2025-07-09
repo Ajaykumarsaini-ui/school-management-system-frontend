@@ -10,14 +10,14 @@ import Singlestudents from "../pages/school/components/students/getsinglestudent
 import Addclass from "../pages/school/components/class/Add-class";
 import Class from "../pages/school/components/class/Classpage";
 
-import Addsubject from "../pages/school/components/subject/Add-subject";
 import Subject from "../pages/school/components/subject/Subjectpage";
+import AddSubject from "../pages/school/components/subject/Addsubject";
 
-import Addhostle from "../pages/school/components/hostle/Add-hostle";
 import Hostlepage from "../pages/school/components/hostle/Hostlepage";
+import Addhostle from "../pages/school/components/Hostle/Addhostle";
 
-import Addnotices from "../pages/school/components/notice/Add-notices";
 import Notices from "../pages/school/components/notice/Notices";
+import Addnotice from "../pages/school/components/Notice/Addnotices";
 
 import Addtransport from "../pages/school/components/transport/Add-transport";
 import Transportpage from "../pages/school/components/transport/Transportpage";
@@ -57,9 +57,9 @@ export const SchoolRoutes = () => (
     <Route index element={<Dashboard />} />
     <Route path="addstudents" element={<Addstudents />} />
     <Route path="addteachers" element={<AddTeacher />} />
-    <Route path="addsubject" element={<Addsubject />} />
+    <Route path="addsubject" element={<AddSubject />} />
     <Route path="addhostle" element={<Addhostle />} />
-    <Route path="addnotice" element={<Addnotices />} />
+    <Route path="addnotice" element={<Addnotice />} />
     <Route path="addtransport" element={<Addtransport />} />
     <Route path="tr_reg_student" element={<Studenttransportregister />} />
     <Route path="addclass" element={<Addclass />} />

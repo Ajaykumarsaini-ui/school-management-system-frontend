@@ -9,7 +9,7 @@ import { useClass } from "../../../../CustomHooks/useClass";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const AddSubjectForm = () => {
+const AddSubject = () => {
   const {
     register,
     handleSubmit,
@@ -229,4 +229,4 @@ const AddSubjectForm = () => {
   );
 };
 
-export default AddSubjectForm;
+export default AddSubject;

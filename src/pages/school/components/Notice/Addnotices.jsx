@@ -7,7 +7,7 @@ import Button from "../../../../components/Button";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 
-const Addnotices = () => {
+const Addnotice = () => {
   const {
     register,
     handleSubmit,
@@ -150,4 +150,4 @@ const Addnotices = () => {
   );
 };
 
-export default Addnotices;
+export default Addnotice;
