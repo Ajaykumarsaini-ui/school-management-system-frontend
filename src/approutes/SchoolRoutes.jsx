@@ -34,7 +34,7 @@ import Viewstudenttransportregistred from "../pages/school/components/transport/
 import Librarydata from "../pages/school/components/library/Librarydata";
 // Exams
 import CreateExamschedule from "../pages/school/components/Exams/CreateExamschedules";
-import Examschedule from "../pages/school/components/exams/Examschedule";
+import Examschedule from "../pages/school/components/Exams/Examschedules";
 import Examresult from "../pages/school/components/Exams/Examresults";
 import ProtectedRoutes from "./Protectedroutes";
 
