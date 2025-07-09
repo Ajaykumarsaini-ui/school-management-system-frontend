@@ -19,7 +19,7 @@ import Getsinglestudent from "../pages/school/components/students/getsinglestude
 import Subjectpage from "../pages/school/components/subject/Subject";
 import AddSubject from "../pages/school/components/subject/Addsubject";
 //hostle
-import Hostlepage from "../pages/school/components/hostle/Hostlepage";
+import Hostlepage from "../pages/school/components/Hostle/Hostlepages";
 import Addhostle from "../pages/school/components/Hostle/Addhostle";
 //notice
 import Addnotice from "../pages/school/components/Notice/Addnotices";
