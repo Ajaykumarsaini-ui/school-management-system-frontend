@@ -45,7 +45,7 @@ import Studentleave from "../pages/school/components/studentleave/Studentleave";
 import Studentmessage from "../pages/school/components/studentmessage/Studentmsg";
 
 //teacher
-import AddTeacher from "../pages/school/components/teachers/AddTeacher";
+import AddTeachers from "../pages/school/components/teachers/AddTeacher";
 import Teacherleavepage from "../pages/school/components/teacherleave/Teacherleaves";
 import Teachermessage from "../pages/school/components/teachermessage/Teachermessages";
 import Teacher from "../pages/school/components/teachers/Teacher";
