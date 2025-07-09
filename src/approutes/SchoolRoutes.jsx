@@ -48,7 +48,7 @@ import Studentmessage from "../pages/school/components/studentmessage/Studentmsg
 import Addteacherdata from "../pages/school/components/teachers/Addteacherdata";
 import Teacherleavepage from "../pages/school/components/teacherleave/Teacherleaves";
 import Teachermessage from "../pages/school/components/teachermessage/Teachermessages";
-import Teacher from "../pages/school/components/teachers/Teacher";
+import Teacher from "../pages/school/components/teachers/Teachers";
 export const SchoolRoutes = () => (
   <Route
     path="/school"
