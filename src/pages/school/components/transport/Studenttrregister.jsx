@@ -1,7 +1,7 @@
 import React from "react";
 import '../../../../styles/school/transport/addstudenttransport.scss'
 
-const Studenttransportregister = () => {
+const Studenttransportreg = () => {
   return (
     <>
       <h1>Student transport register</h1>
@@ -9,4 +9,4 @@ const Studenttransportregister = () => {
   );
 };
 
-export default Studenttransportregister ;
+export default Studenttransportreg ;

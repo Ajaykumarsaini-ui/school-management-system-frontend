@@ -8,7 +8,7 @@ import Button from "../../../../components/Button";
 import { useStudentleave } from "../../../../CustomHooks/useStudentleave";
 import "./studentleave.scss";
 
-const Subjectpage = () => {
+const Studentleave = () => {
   const [search, setSearch] = useState("");
   const [open, setOpen] = useState(false);
   const { studentleave, loading, error, fetch, update, remove } =
@@ -198,4 +198,4 @@ const Subjectpage = () => {
   );
 };
 
-export default Subjectpage;
+export default Studentleave;

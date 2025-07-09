@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import "../../../../styles/school/transport/addtransport.scss";
 import Button from "../../../../components/Button";
 
-const Addtransport = () => {
+const Addtransportrecord = () => {
   return (
     <motion.div
       className="max-w-5xl mx-auto p-6 bg-white shadow-lg rounded-2xl"
@@ -65,4 +65,4 @@ const Addtransport = () => {
   );
 };
 
-export default Addtransport;
+export default Addtransportrecord;

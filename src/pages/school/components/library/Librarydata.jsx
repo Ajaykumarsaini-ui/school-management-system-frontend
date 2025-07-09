@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../../../styles/school/library/library.scss'
 
-const Librarypage = () => {
+const Librarydata = () => {
   return (
     <>
 
@@ -11,4 +11,4 @@ const Librarypage = () => {
   )
 }
 
-export default Librarypage
+export default Librarydata ;
