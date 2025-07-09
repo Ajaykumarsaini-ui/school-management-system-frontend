@@ -26,7 +26,7 @@ import Addnotice from "../pages/school/components/Notice/Addnotices";
 import Notice from "../pages/school/components/Notice/Notice";
 
 //transport
-import Transportpage from "../pages/school/components/transport/Transportpage";
+import Transportpage from "../pages/school/components/transport/Transportdata";
 import Addtransportrecord from "../pages/school/components/transport/Addtransportrecord";
 import Studenttransportreg from "../pages/school/components/transport/Studenttrregister";
 import Viewstudenttransportregistred from "../pages/school/components/transport/Viewsttrreg";
