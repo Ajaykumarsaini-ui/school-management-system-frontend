@@ -45,7 +45,7 @@ import Studentleave from "../pages/school/components/studentleave/Studentleave";
 import Studentmessage from "../pages/school/components/studentmessage/Studentmsg";
 
 //teacher
-import AddTeachers from "../pages/school/components/teachers/AddTeacher";
+import Addteacher from "../pages/school/components/teachers/Addteacher";
 import Teacherleavepage from "../pages/school/components/teacherleave/Teacherleaves";
 import Teachermessage from "../pages/school/components/teachermessage/Teachermessages";
 import Teacher from "../pages/school/components/teachers/Teacher";
@@ -60,7 +60,7 @@ export const SchoolRoutes = () => (
   >
     <Route index element={<Dashboard />} />
     <Route path="addstudents" element={<AddStudents />} />
-    <Route path="addteachers" element={<AddTeachers />} />
+    <Route path="addteachers" element={<Addteacher />} />
     <Route path="addsubject" element={<AddSubject />} />
     <Route path="addhostle" element={<Addhostle />} />
     <Route path="addnotice" element={<Addnotice />} />
