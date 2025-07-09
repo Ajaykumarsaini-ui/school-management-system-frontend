@@ -12,7 +12,7 @@ import Button from "../../../../components/Button";
 import { useNotice } from "../../../../CustomHooks/useNotice";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-const Notices = () => {
+const Notice = () => {
   const [open, setOpen] = useState(false);
   const [search, setSearch] = useState("");
 
@@ -134,4 +134,4 @@ useEffect(() => {
   );
 };
 
-export default Notices;
+export default Notice;

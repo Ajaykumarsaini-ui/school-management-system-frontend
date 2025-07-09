@@ -16,9 +16,8 @@ import AddSubject from "../pages/school/components/subject/Addsubject";
 import Hostlepage from "../pages/school/components/hostle/Hostlepage";
 import Addhostle from "../pages/school/components/Hostle/Addhostle";
 
-import Notices from "../pages/school/components/notice/Notices";
 import Addnotice from "../pages/school/components/Notice/Addnotices";
-
+import Notice from "../pages/school/components/Notice/Notice";
 import Addtransport from "../pages/school/components/transport/Add-transport";
 import Transportpage from "../pages/school/components/transport/Transportpage";
 import Studenttransportregister from "../pages/school/components/transport/Student_transport_register";
