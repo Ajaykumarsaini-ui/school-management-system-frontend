@@ -7,7 +7,7 @@ import Dashboard from "../pages/school/components/dashboard/Dashboard";
 import Addstudents from "../pages/school/components/students/Add-students";
 import Students from "../pages/school/components/students/Students";
 import Singlestudents from "../pages/school/components/students/getsinglestudent/Getsinglestudent";
-import Addteachers from "../pages/school/components/teachers/Addteachers";
+import Teacheradd from "../pages/school/components/teachers/Teacheradd";
 import Addclass from "../pages/school/components/class/Add-class";
 import Class from "../pages/school/components/class/Classpage";
 
@@ -54,7 +54,7 @@ export const SchoolRoutes = () => (
   >
     <Route index element={<Dashboard />} />
     <Route path="addstudents" element={<Addstudents />} />
-    <Route path="addteachers" element={<Addteachers />} />
+    <Route path="addteachers" element={<Teacheradd />} />
     <Route path="addsubject" element={<Addsubject />} />
     <Route path="addhostle" element={<Addhostle />} />
     <Route path="addnotice" element={<Addnotices />} />
