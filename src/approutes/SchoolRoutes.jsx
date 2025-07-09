@@ -25,7 +25,7 @@ import Viewstudenttransportregistred from "../pages/school/components/transport/
 
 import Accountpage from "../pages/school/components/account/Accountpage";
 import Librarypage from "../pages/school/components/library/Librarypage";
-import Teachers from "../pages/school/components/teachers/Teachers";
+import Teacher from "../pages/school/components/teachers/Teacher";
 // Exams
 import CreateExamschedule from "../pages/school/components/exams/CreateExamschedule";
 import Examschedule from "../pages/school/components/exams/Examschedule";
@@ -66,11 +66,11 @@ export const SchoolRoutes = () => (
 
     <Route path="students" element={<Students />} />
     <Route path="students/:id" element={<Singlestudents />} />
-    <Route path="teachers" element={<Teachers />} />
+    <Route path="teachers" element={<Teacher />} />
     <Route path="class" element={<Class />} />
     <Route path="subject" element={<Subject />} />
     <Route path="hostel" element={<Hostlepage />} />
-    <Route path="notices" element={<Notices />} />
+    <Route path="notices" element={<Notice />} />
     <Route path="transport" element={<Transportpage />} />
     <Route path="account" element={<Accountpage />} />
     <Route path="library" element={<Librarypage />} />
