@@ -124,7 +124,6 @@ const Students = () => {
                 <th className="py-3 px-4 border-b">Image</th>
                 <th className="py-3 px-4 border-b">Status</th>
                 <th className="py-3 px-4 border-b">Action</th>
-                <th className="py-3 px-4 border-b">Attendence status</th>
               </tr>
             </thead>
             <tbody className="text-center">
@@ -181,9 +180,7 @@ const Students = () => {
                       Edit
                     </button>
                   </td>
-                  <td className="py-2 px-4 border-b">
-                    {student.attendence_status}
-                  </td>
+                 
                 </tr>
               ))}
             </tbody>
