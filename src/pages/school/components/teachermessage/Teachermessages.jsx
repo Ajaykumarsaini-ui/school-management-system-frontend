@@ -3,7 +3,7 @@ import { Search, ChevronDown } from "lucide-react";
 import "./teachermessage.scss";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { useTeachermessage } from "../../../../CustomHooks/useteachermessage";
+import { useTeachermessage } from "../../../../CustomHooks/useTeachermessage";
 import { Link } from "react-router";
 
 const teachermessage = () => {
