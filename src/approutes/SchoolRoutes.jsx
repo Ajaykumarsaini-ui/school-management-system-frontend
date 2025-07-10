@@ -48,7 +48,7 @@ import Studentmessage from "../pages/school/components/studentmessage/Studentmsg
 // import Addteacherdata from "../pages/school/components/teachers/Addteacherdata.jsx";
 import Teacherleavepage from "../pages/school/components/teacherleave/Teacherleaves.jsx";
 import Teachermessage from "../pages/school/components/teachermessage/Teachermessages.jsx";
-import Teacherpage from "../pages/school/components/teachers/Teacherdata.jsx";
+// import Teacherpage from "../pages/school/components/teachers/Teacherdata.jsx";
 export const SchoolRoutes = () => (
   <Route
     path="/school"
@@ -71,7 +71,7 @@ export const SchoolRoutes = () => (
 
     <Route path="students" element={<Students />} />
     <Route path="students/:id" element={<Getsinglestudent />} />
-    <Route path="teachers" element={<Teacherpage />} />
+    <Route path="teachers" element={<Subjectpage />} />
     <Route path="class" element={<ClassPage />} />
     <Route path="subject" element={<Subjectpage />} />
     <Route path="hostel" element={<Hostlepage />} />
