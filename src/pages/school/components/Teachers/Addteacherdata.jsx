@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import "../../../../styles/school/teachers/addteachers.scss";
 import { useForm } from "react-hook-form";
 import Button from "../../../../components/Button";
