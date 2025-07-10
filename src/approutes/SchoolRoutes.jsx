@@ -45,10 +45,10 @@ import Studentleave from "../pages/school/components/studentleave/Studentleave";
 import Studentmessage from "../pages/school/components/studentmessage/Studentmsg";
 
 //teacher
-// import Addteacherdata from "../pages/school/components/teachers/Addteacherdata.jsx";
+import Addteacherdata from "../pages/school/components/teacher/Addteacherdata.jsx";
 import Teacherleavepage from "../pages/school/components/teacherleave/Teacherleaves.jsx";
 import Teachermessage from "../pages/school/components/teachermessage/Teachermessages.jsx";
-// import Teacherpage from "../pages/school/components/teachers/Teacherdata.jsx";
+import Teacherpage from "../pages/school/components/teacher/Teacherdata.jsx";
 export const SchoolRoutes = () => (
   <Route
     path="/school"
@@ -60,7 +60,7 @@ export const SchoolRoutes = () => (
   >
     <Route index element={<Dashboard />} />
     <Route path="addstudents" element={<AddStudents />} />
-    <Route path="addteachers" element={<AddSubject />} />
+    <Route path="addteachers" element={<Addteacherdata />} />
     <Route path="addsubject" element={<AddSubject />} />
     <Route path="addhostle" element={<Addhostle />} />
     <Route path="addnotice" element={<Addnotice />} />
@@ -71,7 +71,7 @@ export const SchoolRoutes = () => (
 
     <Route path="students" element={<Students />} />
     <Route path="students/:id" element={<Getsinglestudent />} />
-    <Route path="teachers" element={<Subjectpage />} />
+    <Route path="teachers" element={<Teacherpage />} />
     <Route path="class" element={<ClassPage />} />
     <Route path="subject" element={<Subjectpage />} />
     <Route path="hostel" element={<Hostlepage />} />
