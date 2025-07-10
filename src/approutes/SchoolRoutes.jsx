@@ -45,10 +45,10 @@ import Studentleave from "../pages/school/components/studentleave/Studentleave";
 import Studentmessage from "../pages/school/components/studentmessage/Studentmsg";
 
 //teacher
-import Addteacherdata from "../pages/school/components/teachers/Addteacherdata";
-import Teacherleavepage from "../pages/school/components/teacherleave/Teacherleaves";
-import Teachermessage from "../pages/school/components/teachermessage/Teachermessages";
-import Teacherpage from "../pages/school/components/teachers/Teacherdata";
+import Addteacherdata from "../pages/school/components/teachers/Addteacherdata.jsx";
+import Teacherleavepage from "../pages/school/components/teacherleave/Teacherleaves.jsx";
+import Teachermessage from "../pages/school/components/teachermessage/Teachermessages.jsx";
+import Teacherpage from "../pages/school/components/teachers/Teacherdata.jsx";
 export const SchoolRoutes = () => (
   <Route
     path="/school"
