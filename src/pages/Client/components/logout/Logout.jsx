@@ -5,6 +5,8 @@ import { getRoleFromToken } from "../../../../auth/auth";
 import { useNavigate } from "react-router";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import axiosInstance from "../../../../apiservice/AxiosInstance";
+import axios from "axios";
 
 const Logout = () => {
   const role = getRoleFromToken();
@@ -14,22 +16,22 @@ const Logout = () => {
     navigate(`/${role.toLowerCase()}`);
   };
 
-  const handleConfirm = () => {
+  const handleLogout = async () => {
+  try {
+    await axiosInstance.post("/auth/logout"); // ✅ No need to pass withCredentials again
     localStorage.clear();
+    toast.success("Logout successful");
 
-    toast.success("Logout successful!", {
-      position: "top-right",
-      autoClose: 2000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      theme: "light",
-    });
+    // ⏳ Redirect after short delay
+    setTimeout(() => {
+      navigate("/");
+    }, 1000);
+  } catch (error) {
+    toast.error("Logout failed");
+    console.error("Logout error:", error);
+  }
+};
 
-    setTimeout(() => navigate("/login"), 1000);
-  };
 
   return (
     <div className="logout-backdrop">
@@ -44,7 +46,7 @@ const Logout = () => {
           <button onClick={handleCancel} className="btn cancel">
             Cancel
           </button>
-          <button onClick={handleConfirm} className="btn confirm">
+          <button onClick={handleLogout} className="btn confirm">
             Logout
           </button>
         </div>
