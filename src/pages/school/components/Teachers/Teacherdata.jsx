@@ -8,7 +8,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useTeachers } from "../../../../CustomHooks/useTeachers.js";
 
-const Teacher = () => {
+const Teacherpage = () => {
   const [search, setSearch] = useState("");
   const [open, setOpen] = useState(false);
 
@@ -158,4 +158,4 @@ const Teacher = () => {
   );
 };
 
-export default Teacher;
+export default Teacherpage;
